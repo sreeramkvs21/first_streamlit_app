@@ -20,4 +20,4 @@ options = streamlit.multiselect(
     ['Green', 'Yellow', 'Red', 'Blue'],
     ['Yellow', 'Red'])
 
-streamnlit.write('You selected:', options)
+streamlit.write('You selected:', options)
