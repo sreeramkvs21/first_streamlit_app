@@ -13,7 +13,7 @@ my_fruit_list = pandas.read_csv("https://uni-lab-files.s3.us-west-2.amazonaws.co
 # fruits_selected = streamlit.multiselect("Pick some fruits:", list(my_fruit_list.index), default=['Avocado', 'Strawberries'], key=None, help=None, on_change=None, args=None, kwargs=None, max_selections=None, placeholder="Choose an option", disabled=False, label_visibility="visible")
 # fruits_to_show = my_fruit_list.loc[fruits_selected]
 # streamlit.dataframe(fruits_to_show)
-fruits_list = list(my_fruit_list)
+fruits_list = list(my_fruit_list.0)
 # streamlit.write('Fruit list:', fruits_list)
 options = streamlit.multiselect(
     'Pick some fruits:',
