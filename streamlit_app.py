@@ -16,8 +16,8 @@ my_fruit_list = pandas.read_csv("https://uni-lab-files.s3.us-west-2.amazonaws.co
 fruits_list = list(my_fruit_list.index)
 streamlit.write('Fruit list:', fruits_list)
 # options = streamlit.multiselect(
-    'Pick some fruits:',
-    fruits_list,
-    ['Avocado', 'Strawberries'])
+#    'Pick some fruits:',
+#    fruits_list,
+#    ['Avocado', 'Strawberries'])
 
 #streamlit.write('You selected:', options)
